@@ -15,6 +15,9 @@ namespace App\Services;
  * Interface CacheService.
  *
  * NOTE: EXAMPLE NOT TO BE TAKEN LITERALLY
+ *
+ * @Service(id = App\Services\CacheService)
+ * @ServiceAlias(id = App\Services\CacheService, name = cacheService)
  */
 interface CacheService
 {

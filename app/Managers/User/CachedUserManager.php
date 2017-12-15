@@ -17,6 +17,9 @@ use App\Services\CacheService;
 
 /**
  * Class CachedUserManager.
+ *
+ * @Service(id = App\Managers\User\UserManager)
+ * @ServiceAlias(id = App\Managers\User\UserManager, name = userManager)
  */
 class CachedUserManager implements UserManager
 {

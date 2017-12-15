@@ -17,6 +17,9 @@ use App\Services\MySQLService;
 
 /**
  * Class MySQLUserManager.
+ *
+ * @Service(id = App\Managers\User\MySQLUserManager)
+ * @ServiceAlias(id = App\Managers\User\MySQLUserManager, name = mySQLUserManager)
  */
 class MySQLUserManager implements UserManager
 {

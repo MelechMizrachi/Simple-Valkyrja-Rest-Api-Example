@@ -15,6 +15,9 @@ namespace App\Services;
  * Interface MySQLService.
  *
  * NOTE: EXAMPLE NOT TO BE TAKEN LITERALLY
+ *
+ * @Service(id = App\Services\MySQLService)
+ * @ServiceAlias(id = App\Services\MySQLService, name = mySQLService)
  */
 interface MySQLService
 {
